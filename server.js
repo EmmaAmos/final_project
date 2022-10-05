@@ -21,3 +21,9 @@ mongodb.initDb((err) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
+
+//for search 
+
+const searchDB = new mongodb.getDb(media-shop);
+
+return searchDB

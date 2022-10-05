@@ -1,5 +1,7 @@
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
+//This is where the search funtion is made
+
 
 const getSearch = async (req, res) => {
     const result = await mongodb.getDb().db().collection(any).find();
@@ -23,3 +25,5 @@ module.exports = {
   getSearch,
   getResult
 };
+
+//check out this link: https://www.youtube.com/watch?v=208OaGpH1PA&t=0s
